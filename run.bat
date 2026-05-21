@@ -1,0 +1,8 @@
+@echo off
+set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot
+set PATH=%JAVA_HOME%\bin;%PATH%
+set MVN=C:\Users\HP\Downloads\maven\bin\mvn.cmd
+
+cd /d "%~dp0"
+echo Iniciando Moto Repuestos...
+"%MVN%" spring-boot:run
